@@ -1,0 +1,26 @@
+# set shell to zsh
+export SHELL=/bin/zsh
+
+export CONFIG_HOME=$HOME/.config
+
+export ZSH_PLUGIN_MANAGER='antigen'
+
+source $CONFIG_HOME/antigen/antigen.zsh
+
+# syntax highlights
+antigen bundle 'zsh-users/zsh-syntax-highlighting'
+# get autosuggestions as I type
+antigen bundle 'zsh-users/zsh-autosuggestions'
+# jump quick to directories frequently visited by writing shorthand
+antigen bundle 'agkozak/zsh-z'
+
+# theme
+antigen theme denysdovhan/spaceship-prompt
+
+antigen apply
+
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
+
+# fuzzy finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
