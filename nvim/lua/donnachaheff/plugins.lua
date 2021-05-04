@@ -9,6 +9,8 @@ return require('packer').startup (
         use 'nvim-lua/completion-nvim'
         use 'glepnir/lspsaga.nvim'
         use 'onsails/lspkind-nvim'
+        use 'nvim-lua/lsp_extensions.nvim'
+        use 'tjdevries/nlua.nvim'
 
         -- colorscheme
         use 'tjdevries/colorbuddy.nvim'
@@ -23,14 +25,12 @@ return require('packer').startup (
         use 'nvim-telescope/telescope.nvim'
         use 'nvim-telescope/telescope-fzy-native.nvim'
 
-        -- not sure if I want to keep this
         use 'nvim-lua/plenary.nvim'
 
         -- statusline
-        use {
-            'hoob3rt/lualine.nvim', 
-            requires = {'kyazdani42/nvim-web-devicons', opt = true}
-        }
+        use 'hoob3rt/lualine.nvim'
+        use 'kyazdani42/nvim-web-devicons'
+
         use 'wbthomason/lsp-status.nvim'
 
         -- git
@@ -43,7 +43,6 @@ return require('packer').startup (
 
         -- icons
         use 'ryanoasis/vim-devicons'
-        -- use 'kyazdani42/nvim-web-devicons'
         use 'yamatsum/nvim-web-nonicons'
         
         -- typescript
