@@ -16,3 +16,6 @@ vim.cmd [[runtime plugin/astronauta.vim]]
 
 -- load neovim options (e.g. sets)
 require('donnachaheff.options')
+
+-- load lsp configs
+require('donnachaheff.lsp')
