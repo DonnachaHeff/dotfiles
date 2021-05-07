@@ -6,11 +6,16 @@ return require('packer').startup (
 
         -- lsp config
         use 'neovim/nvim-lspconfig'
-        use 'nvim-lua/completion-nvim'
+        -- TODO: check out these nvim plugins
         use 'glepnir/lspsaga.nvim'
         use 'onsails/lspkind-nvim'
         use 'nvim-lua/lsp_extensions.nvim'
         use 'tjdevries/nlua.nvim'
+
+        -- completion stuff
+        use 'hrsh7th/nvim-compe'
+        use 'hrsh7th/vim-vsnip'
+        use 'hrsh7th/vim-vsnip-integ'
 
         -- colorscheme
         use 'tjdevries/colorbuddy.nvim'
