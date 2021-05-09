@@ -12,6 +12,11 @@ return require('packer').startup (
         use 'nvim-lua/lsp_extensions.nvim'
         use 'tjdevries/nlua.nvim'
 
+        -- text manipulation
+        use 'tpope/vim-commentary' -- use gc to comment in V mode
+        use 'tpope/vim-surruond' -- use cs"' to change surrounding " to '
+        use 'godlygeek/tabular' -- allows me to align text by a specific pattern
+
         -- completion stuff
         use 'hrsh7th/nvim-compe'
         use 'hrsh7th/vim-vsnip'
@@ -49,6 +54,7 @@ return require('packer').startup (
         -- icons
         use 'ryanoasis/vim-devicons'
         use 'yamatsum/nvim-web-nonicons'
+        use 'tjdevries/cyclist.vim'
         
         -- typescript
         use 'jelera/vim-javascript-syntax'
