@@ -2,13 +2,13 @@ local lspconfig = require('lspconfig')
 local nvim_status = require('lsp-status')
 --local nnoremap = vim.keymap.nnoremap
 
-local custom_init = function(client)
-    client.config.flags = client.config.flags or {}
-    client.config.flags.allow_incremental_sync = true
-end
+-- local custom_init = function(client)
+--     client.config.flags = client.config.flags or {}
+--     client.config.flags.allow_incremental_sync = true
+-- end
 
-local function custom_attach()
-end
+-- local function custom_attach()
+-- end
 
  --local custom_attach = function(client)
     --local filetype = vim.api.nvim_buf_get_option(0, 'filetype')
@@ -39,11 +39,14 @@ end
     --end
   --end
 
-lspconfig.tsserver.setup{ 
-      cmd = { "typescript-language-server", "--stdio" },
-      filetypes = { "javascript", "typescript" },
-      rootdir = lspconfig.util.root_pattern{ "package.json", "tsconfig.json", "jsconfig.json", ".git" },
-      --autostart = false,
-      on_init = custom_init,
-      on_attach = custom_attach,
-}
+--lspconfig.tsserver.setup{ 
+--      cmd = { "typescript-language-server", "--stdio" },
+--      filetypes = { "javascript", "typescript" },
+--      rootdir = lspconfig.util.root_pattern{ "package.json", "tsconfig.json", "jsconfig.json", ".git" },
+--      --autostart = false,
+--      on_init = custom_init,
+--      on_attach = custom_attach,
+--}
+
+vim.lsp.set_log_level("debug")
+lspconfig.tsserver.setup{}

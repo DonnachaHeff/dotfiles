@@ -71,13 +71,17 @@ end
 time("try_loadstring definition", false)
 time("Defining packer_plugins", true)
 _G.packer_plugins = {
+  ["astronauta.nvim"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/astronauta.nvim"
+  },
   ["colorbuddy.nvim"] = {
     loaded = true,
     path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim"
   },
-  ["completion-nvim"] = {
+  ["cyclist.vim"] = {
     loaded = true,
-    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/completion-nvim"
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/cyclist.vim"
   },
   fzf = {
     loaded = true,
@@ -95,9 +99,37 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/gruvbuddy.nvim"
   },
+  ["javascript-libraries-syntax.vim"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/javascript-libraries-syntax.vim"
+  },
+  ["lsp-status.nvim"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/lsp-status.nvim"
+  },
+  ["lsp_extensions.nvim"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/lsp_extensions.nvim"
+  },
+  ["lspkind-nvim"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/lspkind-nvim"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/lspsaga.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/lualine.nvim"
+  },
+  ["nlua.nvim"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/nlua.nvim"
+  },
+  ["nvim-compe"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/nvim-compe"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -106,6 +138,14 @@ _G.packer_plugins = {
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/nvim-treesitter"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/nvim-web-devicons"
+  },
+  ["nvim-web-nonicons"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/nvim-web-nonicons"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -123,6 +163,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/popup.nvim"
   },
+  tabular = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/tabular"
+  },
   ["telescope-fzy-native.nvim"] = {
     loaded = true,
     path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/telescope-fzy-native.nvim"
@@ -130,6 +174,42 @@ _G.packer_plugins = {
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/telescope.nvim"
+  },
+  ["typescript-vim"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/typescript-vim"
+  },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/vim-commentary"
+  },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/vim-devicons"
+  },
+  ["vim-javascript-syntax"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/vim-javascript-syntax"
+  },
+  ["vim-jsx-typescript"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/vim-jsx-typescript"
+  },
+  ["vim-prettier"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/vim-prettier"
+  },
+  ["vim-surruond"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/vim-surruond"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/vim-vsnip"
+  },
+  ["vim-vsnip-integ"] = {
+    loaded = true,
+    path = "/home/donnachaheff/.local/share/nvim/site/pack/packer/start/vim-vsnip-integ"
   }
 }
 

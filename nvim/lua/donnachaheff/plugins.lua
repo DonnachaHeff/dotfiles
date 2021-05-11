@@ -14,7 +14,7 @@ return require('packer').startup (
 
         -- text manipulation
         use 'tpope/vim-commentary' -- use gc to comment in V mode
-        use 'tpope/vim-surruond' -- use cs"' to change surrounding " to '
+        use 'tpope/vim-surround' -- use cs"' to change surrounding " to '
         use 'godlygeek/tabular' -- allows me to align text by a specific pattern
 
         -- completion stuff
